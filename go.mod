@@ -1,3 +1,3 @@
-module github.com/bartmika/appleidentifier
+module github.com/bartmika/go-appleidentifier
 
 go 1.16

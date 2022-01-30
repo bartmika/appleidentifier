@@ -6,7 +6,7 @@ A utility library used to help identify product names for Apple devices.
 In your Golang project, please run:
 
 ```
-go get github.com/bartmika/appleidentifier
+go get github.com/bartmika/go-appleidentifier
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ go get github.com/bartmika/appleidentifier
 import (
     "fmt"
 
-    "github.com/bartmika/appleidentifier"
+    "github.com/bartmika/go-appleidentifier"
 )
 
 deviceName := appleidentifier.GetProductNameByDeviceCode("iPhone1,1")
